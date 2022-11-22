@@ -1,0 +1,39 @@
+.box{
+    margin-top: 20px;
+}
+.box h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+}
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: all 0.4s;
+}
+.popup form{
+    position: relative;
+    min-width: 40%;
+    background: lightgray;
+    padding: 30px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+.popup .close{
+    position: absolute;
+    right: -17px;
+    top: -17px;
+}
+::selection{
+    background-color: brown;
+    color: #fff;
+}
